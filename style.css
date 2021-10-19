@@ -4,6 +4,21 @@
 }
 body {
 	background: rgb(51, 50, 50);
+	font-family: impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.compScore {
+	color: white;
+	margin: auto;
+	text-align: center;
+	float: left;
+}
+.playerScore {
+	color: white;
+	margin: auto;
+	text-align: center;
+	float:right;
+	/* position:left; */
 }
 .computer {
 	background-color: black;
@@ -11,6 +26,7 @@ body {
 	margin:auto;
 	margin-top: 20px;
 	padding: 20px;
+	box-sizing: content-box;
 	
 }
 .player {
@@ -20,9 +36,11 @@ body {
 
 }
 .computer .img{
+	/* display: inline-block; */
 	width: 300px;
 	height: 300px;
 	background-color: lightblue;
+	/* padding: auto; */
 	margin: auto;
 	border-radius: 50%;
 	overflow: hidden;

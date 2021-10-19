@@ -43,6 +43,15 @@ imgs.forEach(function(el){
         setTimeout(function(){
             imgComp.setAttribute("src", "img/"+comp+".png");
             info.innerHTML = result;
+            if (result == "YOU WIN!") {
+                const score = document.getElementsByClassName("playerScore")[0].children[1];
+                score.innerHTML = parseInt(score.innerHTML) + 1;
+                // console.log(parseInt(score.innerHTML));
+            } else if (result == "YOU LOSE") {
+                const score = document.getElementsByClassName("compScore")[0].children[1];
+                score.innerHTML = parseInt(score.innerHTML) + 1;
+                // console.log(parseInt(score.innerHTML));
+            }
         },1000);
 
 
