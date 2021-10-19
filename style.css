@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: rgb(51, 50, 50);
+}
+.computer {
+	background-color: black;
+	width: 800px;
+	margin:auto;
+	margin-top: 20px;
+	padding: 20px;
+	
+}
+.player {
+	background-color: black;
+	width: 840px;
+	margin: auto;
+
+}
+.computer .img{
+	width: 300px;
+	height: 300px;
+	background-color: lightblue;
+	margin: auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.imgs {
+	width: 97.5%;
+	margin: auto;
+	
+}
+.player .imgs .img{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	background-color: lightblue;
+	margin: 10px;
+	border-radius: 50%;
+	overflow: hidden;
+
+}
+img {
+	width: 230px;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.player .img img[alt=batu] {
+	width: 200px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+.player .img img[alt=kertas] {
+	width: 220px;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+.player .img img[alt=gunting] {
+	width: 230px;
+	padding-top:3px;
+	padding-left: 10px;
+}
+.info .result{
+	background-color: lightblue;
+	font-size: 50px;
+	font-family: impact;
+	font-display: block;
+	text-align: center;
+	margin: auto;
+	width: 840px;
+	letter-spacing: 20px;
+}
+.imgs .img:hover {
+	background-color: rgb(49, 49, 48);
+	cursor: pointer;
+}
